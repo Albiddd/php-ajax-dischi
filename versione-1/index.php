@@ -27,7 +27,7 @@
                 foreach($albums as $album){
 
                 ?>
-                <div class="">
+                <div class="col">
                     <div class="card text-center">
                         <img src="<?= $album['poster'] ?>" class="card-img-top" alt="<?= $album['title'] ?>">
                         <div class="card-body">
